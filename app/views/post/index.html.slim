@@ -1,0 +1,6 @@
+.col-xs-12
+  h2.text-center Posts
+  - @posts.each do |post|
+    h6 = post.title
+    p = post.body
+    hr
