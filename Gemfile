@@ -19,7 +19,7 @@ gem 'simple_form'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'kapchonka', :path => "/home/edgar/Development/Projects/kapchonka"
+gem 'kapchonka', :git => "git@github.com:AlianceBloom/kapchonka.git"
 
 group :development do
   gem 'better_errors'

@@ -1,5 +1,6 @@
-PATH
-  remote: /home/edgar/Development/Projects/kapchonka
+GIT
+  remote: git@github.com:AlianceBloom/kapchonka.git
+  revision: 2700889f7eae20ea368c87f4962261160df7d811
   specs:
     kapchonka (0.0.1)
       rails (~> 4.1.8)
