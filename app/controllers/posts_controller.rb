@@ -1,4 +1,4 @@
-class PostController < ApplicationController
+class PostsController < ApplicationController
   include Kapchonka::ControllerHelper
 
   before_action :generate_kapchonka, only: [ :new ]
@@ -16,7 +16,7 @@ class PostController < ApplicationController
     @post = Post.new post_params
     if @post.save
       flash[:success] = "Post successfully created"
-      redirect_to post_index_path
+      redirect_to posts_path
     else
       generate_kapchonka
       flash.now[:error] = @post.errors.full_messages
