@@ -6,7 +6,7 @@ scss:
 .kapchonka
   .kapchonka-image
     img  src="data:image/png;base64,#{image_data}"
-  .kapchonka-input
-    input type="number" name="#{input_name}" placeholder="#{I18n.t 'kapchonka.placeholder'}" required="required"
+  .kapchonka-input.form-group
+    input.form-control type="number" name="#{input_name}" placeholder="#{I18n.t 'kapchonka.placeholder'}" required="required"
   .kapchonka-label
     = I18n.t 'kapchonka.label'
