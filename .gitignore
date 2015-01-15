@@ -17,3 +17,5 @@
 
 /config/deploy/**/*.rb
 ./capistrano
+/vendor/cache
+/public/assets

@@ -4,8 +4,10 @@ gem 'rails', '4.1.8'
 
 gem 'sqlite3'
 
-gem 'sass-rails', '~> 4.0.3'
-gem 'flat-ui-sass', github: 'wingrunr21/flat-ui-sass'
+gem 'sass'
+gem 'sass-rails'
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'

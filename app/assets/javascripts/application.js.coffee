@@ -1,4 +1,4 @@
 #= require jquery
 #= require jquery_ujs
-#= require flat-ui
+#= require bootstrap-sprockets
 #= require_tree .
